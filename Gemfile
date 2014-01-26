@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
-require 'rubygems'
-require 'mongo'
+# require 'rubygems'
+# require 'mongo'
 
 gem 'rails', '3.2.16'
 gem "mongo_mapper"
