@@ -1,11 +1,13 @@
 source 'https://rubygems.org'
 
+require 'rubygems'
+require 'mongo'
+
 gem 'rails', '3.2.16'
+gem "mongo_mapper"
+gem 'bson_ext'
 
-group :development do
-  gem 'sqlite3', '1.3.5'
-end
-
+gem 'json'
 
 # Gems used only for assets and not required
 # in production environments by default.
